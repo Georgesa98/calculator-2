@@ -90,3 +90,66 @@
     position: absolute;
     right: 9px;
 }
+@media screen and (max-width: 480px) {
+    body{
+        height: 100%;
+    }
+    .equation{
+        height: 18.8%;
+    }
+    .result{
+        height: 20%;
+    }
+    .buttons-container{
+        height: 60.2%;
+        padding-bottom: 36.7px;
+        
+    }
+    .round{
+        width: 80px;
+        height: 80px; 
+        flex-shrink: 0;
+        border-radius: 100px;
+        color: #000;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.32px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+    .rect{
+        width: 80px;
+        height: 80px; 
+        flex-shrink: 0;
+        border-radius: 15px;
+        color: #000;
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.32px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+    .del{
+        font-size: 40px;
+    }
+    .equation-1{
+        font-size: 60px;
+        margin-left: 16px;
+    }
+    .result-1{
+        font-size: 60px;
+        margin-left: 16px;
+        margin-top: 8px;
+        color: white;
+    }
+    #logo{
+        position: absolute;
+        width: 50px;
+        margin-top: -10px;
+    }
+
+}
