@@ -71,7 +71,7 @@ function CalcBody () {
             <div className="buttons-container">
                 <Button value="clear" onClick={handleClick} className="rect" number="C" />
                 <Button value="/" onClick={handleClick} number="/" className="rect"/>
-                <Button value="X" onClick={handleClick} className="rect" number="X" />
+                <Button value="*" onClick={handleClick} className="rect" number="X" />
                 <Button value="delete" onClick={handleClick} className="rect del" number="Del" />
                 <Button value="1" onClick={handleClick} className="round" number="1" />
                 <Button value="2" onClick={handleClick} className="round" number="2" />
